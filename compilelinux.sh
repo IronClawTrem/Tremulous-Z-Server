@@ -32,7 +32,7 @@ mv zui.pk3 build/release-linux-x86_64/base
 cd build/release-linux-x86_64/base
 rm vm/game.qvm
 zip -r zvms.pk3 vm
-rm -rf cgame && rm -rf game && rm -rf qcommon && rm -rf ui && rm -rf vm && rm -rf uix86_64.so && mv gamex86_64.so
+rm -rf cgame && rm -rf game && rm -rf qcommon && rm -rf ui && rm -rf vm && rm -rf uix86_64.so
 cd ..
 mv base zombie
 rm -rf client && rm -rf clientsmp && rm -rf ded && rm -rf tools
